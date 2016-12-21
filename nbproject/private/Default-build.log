@@ -1,0 +1,4 @@
+g++ -c -g src/file_reading.cpp -o obj/file_reading.o
+Assembler messages:
+Fatal error: can't create obj/file_reading.o: No such file or directory
+make: *** [Makefile:10: obj/file_reading.o] Error 1

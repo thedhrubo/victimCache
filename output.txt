@@ -1,0 +1,6 @@
+Total Hit Rate : 93.184769%
+Load Hit Rate : 97.416382%
+Store Hit Rate : 86.366631%
+Total Run Time : 5319664.000000
+Average Memory Access Latency : 7.815233
+total victim cache hit:2650.000000

@@ -1,0 +1,34 @@
+To install, do the following 
+
+1. 'cd' to the directory containing the files and folders. 
+2. Run 'make' in the terminal.
+3. This creates the executable file in the bin/ folder
+
+
+To run the program, 
+	
+	$ ./bin/victimcache <block size> <victim size> <replacement policy> <write allocate>  <trace_file> 
+	
+Configuration files are kept in conf folder
+trace files are kept in trace folder
+
+example command to run the program :
+
+$bin/victimcache 8 8 1 1 trace/twolf.trace
+
+after executing this command an output file will generate with twolf.trace.out . To check the output we can execute :
+
+vim trace/twolf.trace.out
+
+A excel is also attached naming Comparisonchart.xlsx is also included with the project with providing the all test results and the regarding discussion about it.
+
+**********************************************************************
+CONFIGURATION FILE DETAILS 
+**********************************************************************
+
+The input configuration details can be found from the CSE331-F16-Project2.pdf. This is also kept in the folder for the better reference. 	
+	
+	Cache miss penalty is treated default 100
+	Cache hit time is treated default 1.
+	
+IF you face any confusion to build this project then feel free to contact with me : dhrubo.saha@student.nmt.edu
